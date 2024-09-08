@@ -1,0 +1,20 @@
+.login_header__wrap {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  display: flex;
+  width: 100%;
+
+  & > div {
+    color: #b0b7bf;
+    padding: 12px 8px;
+    border-bottom: 2px solid #e0e2e5;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    &[data-active="true"] {
+      border-bottom-color: #3089f0;
+      color: #3089f0;
+    }
+  }
+}
